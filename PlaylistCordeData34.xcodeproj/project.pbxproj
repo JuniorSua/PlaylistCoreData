@@ -14,6 +14,8 @@
 		D00FE8592573598600EBB04E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00FE8582573598600EBB04E /* Assets.xcassets */; };
 		D00FE85C2573598600EBB04E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00FE85A2573598600EBB04E /* LaunchScreen.storyboard */; };
 		D0DDE5F6257660010055413B /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DDE5F5257660010055413B /* CoreDataStack.swift */; };
+		D0DDE5F92576660B0055413B /* Playlist+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DDE5F82576660B0055413B /* Playlist+Convenience.swift */; };
+		D0DDE5FC257666BF0055413B /* Song+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DDE5FB257666BF0055413B /* Song+Convenience.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		D00FE85B2573598600EBB04E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D00FE85D2573598600EBB04E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0DDE5F5257660010055413B /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		D0DDE5F82576660B0055413B /* Playlist+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Playlist+Convenience.swift"; sourceTree = "<group>"; };
+		D0DDE5FB257666BF0055413B /* Song+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Song+Convenience.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				D0DDE5F5257660010055413B /* CoreDataStack.swift */,
+				D0DDE5F82576660B0055413B /* Playlist+Convenience.swift */,
+				D0DDE5FB257666BF0055413B /* Song+Convenience.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,6 +171,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D00FE8572573598400EBB04E /* PlaylistCordeData34.xcdatamodeld in Sources */,
+				D0DDE5F92576660B0055413B /* Playlist+Convenience.swift in Sources */,
+				D0DDE5FC257666BF0055413B /* Song+Convenience.swift in Sources */,
 				D00FE84D2573598400EBB04E /* AppDelegate.swift in Sources */,
 				D00FE84F2573598400EBB04E /* SceneDelegate.swift in Sources */,
 				D0DDE5F6257660010055413B /* CoreDataStack.swift in Sources */,
