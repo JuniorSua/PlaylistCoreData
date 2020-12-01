@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		D00FE84D2573598400EBB04E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00FE84C2573598400EBB04E /* AppDelegate.swift */; };
 		D00FE84F2573598400EBB04E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00FE84E2573598400EBB04E /* SceneDelegate.swift */; };
-		D00FE8512573598400EBB04E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00FE8502573598400EBB04E /* ViewController.swift */; };
 		D00FE8542573598400EBB04E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00FE8522573598400EBB04E /* Main.storyboard */; };
 		D00FE8572573598400EBB04E /* PlaylistCordeData34.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D00FE8552573598400EBB04E /* PlaylistCordeData34.xcdatamodeld */; };
 		D00FE8592573598600EBB04E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00FE8582573598600EBB04E /* Assets.xcassets */; };
 		D00FE85C2573598600EBB04E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00FE85A2573598600EBB04E /* LaunchScreen.storyboard */; };
+		D0DDE5F6257660010055413B /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DDE5F5257660010055413B /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D00FE8492573598400EBB04E /* PlaylistCordeData34.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistCordeData34.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00FE84C2573598400EBB04E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D00FE84E2573598400EBB04E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D00FE8502573598400EBB04E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D00FE8532573598400EBB04E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D00FE8562573598400EBB04E /* PlaylistCordeData34.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlaylistCordeData34.xcdatamodel; sourceTree = "<group>"; };
 		D00FE8582573598600EBB04E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D00FE85B2573598600EBB04E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D00FE85D2573598600EBB04E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0DDE5F5257660010055413B /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +58,40 @@
 		D00FE84B2573598400EBB04E /* PlaylistCordeData34 */ = {
 			isa = PBXGroup;
 			children = (
-				D00FE84C2573598400EBB04E /* AppDelegate.swift */,
-				D00FE84E2573598400EBB04E /* SceneDelegate.swift */,
-				D00FE8502573598400EBB04E /* ViewController.swift */,
-				D00FE8522573598400EBB04E /* Main.storyboard */,
-				D00FE8582573598600EBB04E /* Assets.xcassets */,
-				D00FE85A2573598600EBB04E /* LaunchScreen.storyboard */,
-				D00FE85D2573598600EBB04E /* Info.plist */,
+				D0DDE5F425765FEF0055413B /* Model */,
+				D0DDE5F225765B5E0055413B /* Views */,
+				D0DDE5EE25765B110055413B /* Resources */,
 				D00FE8552573598400EBB04E /* PlaylistCordeData34.xcdatamodeld */,
 			);
 			path = PlaylistCordeData34;
+			sourceTree = "<group>";
+		};
+		D0DDE5EE25765B110055413B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D00FE84C2573598400EBB04E /* AppDelegate.swift */,
+				D00FE84E2573598400EBB04E /* SceneDelegate.swift */,
+				D00FE8582573598600EBB04E /* Assets.xcassets */,
+				D00FE85A2573598600EBB04E /* LaunchScreen.storyboard */,
+				D00FE85D2573598600EBB04E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D0DDE5F225765B5E0055413B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D00FE8522573598400EBB04E /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0DDE5F425765FEF0055413B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D0DDE5F5257660010055413B /* CoreDataStack.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D00FE8572573598400EBB04E /* PlaylistCordeData34.xcdatamodeld in Sources */,
-				D00FE8512573598400EBB04E /* ViewController.swift in Sources */,
 				D00FE84D2573598400EBB04E /* AppDelegate.swift in Sources */,
 				D00FE84F2573598400EBB04E /* SceneDelegate.swift in Sources */,
+				D0DDE5F6257660010055413B /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +316,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FXHHZQB8GN;
-				INFOPLIST_FILE = PlaylistCordeData34/Info.plist;
+				INFOPLIST_FILE = PlaylistCordeData34/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,7 +335,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FXHHZQB8GN;
-				INFOPLIST_FILE = PlaylistCordeData34/Info.plist;
+				INFOPLIST_FILE = PlaylistCordeData34/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
