@@ -16,6 +16,7 @@
 		D0DDE5F6257660010055413B /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DDE5F5257660010055413B /* CoreDataStack.swift */; };
 		D0DDE5F92576660B0055413B /* Playlist+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DDE5F82576660B0055413B /* Playlist+Convenience.swift */; };
 		D0DDE5FC257666BF0055413B /* Song+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DDE5FB257666BF0055413B /* Song+Convenience.swift */; };
+		D0DDE6002576691E0055413B /* PlaylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DDE5FF2576691E0055413B /* PlaylistController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D0DDE5F5257660010055413B /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		D0DDE5F82576660B0055413B /* Playlist+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Playlist+Convenience.swift"; sourceTree = "<group>"; };
 		D0DDE5FB257666BF0055413B /* Song+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Song+Convenience.swift"; sourceTree = "<group>"; };
+		D0DDE5FF2576691E0055413B /* PlaylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		D00FE84B2573598400EBB04E /* PlaylistCordeData34 */ = {
 			isa = PBXGroup;
 			children = (
+				D0DDE5FE257669050055413B /* ModelControllers */,
 				D0DDE5F425765FEF0055413B /* Model */,
 				D0DDE5F225765B5E0055413B /* Views */,
 				D0DDE5EE25765B110055413B /* Resources */,
@@ -98,6 +101,14 @@
 				D0DDE5FB257666BF0055413B /* Song+Convenience.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D0DDE5FE257669050055413B /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0DDE5FF2576691E0055413B /* PlaylistController.swift */,
+			);
+			path = ModelControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +187,7 @@
 				D00FE84D2573598400EBB04E /* AppDelegate.swift in Sources */,
 				D00FE84F2573598400EBB04E /* SceneDelegate.swift in Sources */,
 				D0DDE5F6257660010055413B /* CoreDataStack.swift in Sources */,
+				D0DDE6002576691E0055413B /* PlaylistController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

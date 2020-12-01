@@ -12,8 +12,8 @@ extension Song {
     convenience init(name: String, artist: String, playlist: Playlist) {
         
         self.init(context: CoreDataStack.context)
-        self.songName = name
-        self.artistName = artist
-        self.playlist = playlist
+        self.songName       = name
+        self.artistName     = artist
+        self.playlist       = playlist
     }
 }

@@ -12,6 +12,6 @@ extension Playlist {
     convenience init(name: String) {
         
         self.init(context: CoreDataStack.context)
-        self.name = name
+        self.name       = name
     }
 }
