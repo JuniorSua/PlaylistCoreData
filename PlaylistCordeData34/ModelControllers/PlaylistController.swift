@@ -25,6 +25,7 @@ class PlaylistController {
     func saveToPersistentStore() {
         do {
             try CoreDataStack.context.save()
+    
         } catch {
             print("Error in \(#function) : \(error.localizedDescription) \n---\n \(error)")
         }
